@@ -1,5 +1,5 @@
-﻿using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Events;
-using Microsoft.eShopOnContainers.Services.Basket.API.Model;
+﻿using TTcms.BuildingBlocks.EventBus.Events;
+using TTcms.Services.Basket.API.Model;
 using System;
 
 namespace Basket.API.IntegrationEvents.Events

@@ -1,10 +1,10 @@
-﻿namespace Microsoft.eShopOnContainers.BuildingBlocks.EventBusServiceBus
+﻿namespace TTcms.BuildingBlocks.EventBusServiceBus
 {
     using Autofac;
     using Microsoft.Azure.ServiceBus;
-    using Microsoft.eShopOnContainers.BuildingBlocks.EventBus;
-    using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Abstractions;
-    using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Events;
+    using TTcms.BuildingBlocks.EventBus;
+    using TTcms.BuildingBlocks.EventBus.Abstractions;
+    using TTcms.BuildingBlocks.EventBus.Events;
     using Microsoft.Extensions.Logging;   
     using System;
     using System.Text;

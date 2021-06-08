@@ -1,9 +1,9 @@
 ﻿using CatalogApi;
 using Grpc.Core;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.eShopOnContainers.Services.Catalog.API;
-using Microsoft.eShopOnContainers.Services.Catalog.API.Infrastructure;
-using Microsoft.eShopOnContainers.Services.Catalog.API.Model;
+using TTcms.Services.Catalog.API;
+using TTcms.Services.Catalog.API.Infrastructure;
+using TTcms.Services.Catalog.API.Model;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using System;

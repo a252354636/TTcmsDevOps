@@ -16,7 +16,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Microsoft.eShopOnContainers.Services.Basket.API": {
+    "TTcms.Services.Basket.API": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "http://localhost:55103/",

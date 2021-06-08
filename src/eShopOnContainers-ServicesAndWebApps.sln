@@ -24,6 +24,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering", "Ordering", "{0BD0DB92-2D98-44D9-9AC0-C59186D59B0B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A857AD10-40FF-4303-BEC2-FF1C58D5735E}"
+	ProjectSection(SolutionItems) = preProject
+		Services\Identity\Identity.API\values.dev.yaml = Services\Identity\Identity.API\values.dev.yaml
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceTests", "ServiceTests", "{EF0337F2-ED00-4643-89FD-EE10863F1870}"
 EndProject

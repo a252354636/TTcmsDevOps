@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Abstractions;
-using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Events;
-using Microsoft.eShopOnContainers.BuildingBlocks.IntegrationEventLogEF.Services;
-using Microsoft.eShopOnContainers.BuildingBlocks.IntegrationEventLogEF.Utilities;
-using Microsoft.eShopOnContainers.Services.Catalog.API.Infrastructure;
+using TTcms.BuildingBlocks.EventBus.Abstractions;
+using TTcms.BuildingBlocks.EventBus.Events;
+using TTcms.BuildingBlocks.IntegrationEventLogEF.Services;
+using TTcms.BuildingBlocks.IntegrationEventLogEF.Utilities;
+using TTcms.Services.Catalog.API.Infrastructure;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Data.Common;

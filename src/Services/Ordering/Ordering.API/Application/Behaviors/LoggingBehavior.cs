@@ -1,5 +1,5 @@
 ﻿using MediatR;
-using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Extensions;
+using TTcms.BuildingBlocks.EventBus.Extensions;
 using Microsoft.Extensions.Logging;
 using System.Threading;
 using System.Threading.Tasks;

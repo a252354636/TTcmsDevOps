@@ -1,7 +1,7 @@
 ﻿using FunctionalTests.Extensions;
 using FunctionalTests.Services.Basket;
-using Microsoft.eShopOnContainers.Services.Basket.API.Model;
-using Microsoft.eShopOnContainers.WebMVC.ViewModels;
+using TTcms.Services.Basket.API.Model;
+using TTcms.WebMVC.ViewModels;
 using System;
 using System.Text.Json;
 using System.Collections.Generic;
@@ -109,9 +109,9 @@ namespace FunctionalTests.Services.Ordering
         string BuildBasket()
         {
             var order = new CustomerBasket("9e3163b9-1ae6-4652-9dc6-7898ab7b7a00");
-            order.Items = new List<Microsoft.eShopOnContainers.Services.Basket.API.Model.BasketItem>()
+            order.Items = new List<TTcms.Services.Basket.API.Model.BasketItem>()
             {
-                new Microsoft.eShopOnContainers.Services.Basket.API.Model.BasketItem()
+                new TTcms.Services.Basket.API.Model.BasketItem()
                 {
                     Id = "1",
                     ProductName = "ProductName",

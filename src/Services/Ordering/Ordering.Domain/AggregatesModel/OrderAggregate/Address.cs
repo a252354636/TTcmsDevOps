@@ -1,8 +1,8 @@
-﻿using Microsoft.eShopOnContainers.Services.Ordering.Domain.SeedWork;
+﻿using TTcms.Services.Ordering.Domain.SeedWork;
 using System;
 using System.Collections.Generic;
 
-namespace Microsoft.eShopOnContainers.Services.Ordering.Domain.AggregatesModel.OrderAggregate
+namespace TTcms.Services.Ordering.Domain.AggregatesModel.OrderAggregate
 {
     public class Address : ValueObject
     {

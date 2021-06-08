@@ -1,9 +1,9 @@
 ﻿using Autofac;
 using Microsoft.Azure.ServiceBus;
-using Microsoft.eShopOnContainers.BuildingBlocks.EventBus;
-using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Abstractions;
-using Microsoft.eShopOnContainers.BuildingBlocks.EventBusRabbitMQ;
-using Microsoft.eShopOnContainers.BuildingBlocks.EventBusServiceBus;
+using TTcms.BuildingBlocks.EventBus;
+using TTcms.BuildingBlocks.EventBus.Abstractions;
+using TTcms.BuildingBlocks.EventBusRabbitMQ;
+using TTcms.BuildingBlocks.EventBusServiceBus;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Diagnostics.HealthChecks;

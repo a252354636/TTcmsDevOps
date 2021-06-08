@@ -1,5 +1,5 @@
 ﻿using Autofac;
-using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Abstractions;
+using TTcms.BuildingBlocks.EventBus.Abstractions;
 using Ordering.SignalrHub.IntegrationEvents;
 using System.Reflection;
 

@@ -1,15 +1,15 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Ordering.API.Application.Commands
+﻿namespace TTcms.Services.Ordering.API.Application.Commands
 {
     using Domain.AggregatesModel.OrderAggregate;
     using global::Ordering.API.Application.Models;
     using MediatR;
-    using Microsoft.eShopOnContainers.Services.Ordering.API.Infrastructure.Services;
+    using TTcms.Services.Ordering.API.Infrastructure.Services;
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Threading;
     using System.Threading.Tasks;
-    using static Microsoft.eShopOnContainers.Services.Ordering.API.Application.Commands.CreateOrderCommand;
+    using static TTcms.Services.Ordering.API.Application.Commands.CreateOrderCommand;
 
     // Regular CommandHandler
     public class CreateOrderDraftCommandHandler

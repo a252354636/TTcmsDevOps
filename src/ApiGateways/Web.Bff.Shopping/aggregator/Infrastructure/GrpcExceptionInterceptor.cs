@@ -3,7 +3,7 @@ using Grpc.Core.Interceptors;
 using Microsoft.Extensions.Logging;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopOnContainers.Web.Shopping.HttpAggregator.Infrastructure
+namespace TTcms.Web.Shopping.HttpAggregator.Infrastructure
 {
     public class GrpcExceptionInterceptor : Interceptor
     {

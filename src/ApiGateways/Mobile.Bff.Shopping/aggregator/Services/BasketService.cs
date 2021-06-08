@@ -1,10 +1,10 @@
 ﻿using GrpcBasket;
-using Microsoft.eShopOnContainers.Mobile.Shopping.HttpAggregator.Models;
+using TTcms.Mobile.Shopping.HttpAggregator.Models;
 using Microsoft.Extensions.Logging;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopOnContainers.Mobile.Shopping.HttpAggregator.Services
+namespace TTcms.Mobile.Shopping.HttpAggregator.Services
 {
     public class BasketService : IBasketService
     {

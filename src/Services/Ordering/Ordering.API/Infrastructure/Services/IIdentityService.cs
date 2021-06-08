@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Ordering.API.Infrastructure.Services
+﻿namespace TTcms.Services.Ordering.API.Infrastructure.Services
 {
     public interface IIdentityService
     {

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Microsoft.eShopOnContainers.Web.Shopping.HttpAggregator.Config
+namespace TTcms.Web.Shopping.HttpAggregator.Config
 {
 
     public class UrlsConfig

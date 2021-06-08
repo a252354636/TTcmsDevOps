@@ -1,12 +1,12 @@
-﻿using Microsoft.eShopOnContainers.Web.Shopping.HttpAggregator.Config;
-using Microsoft.eShopOnContainers.Web.Shopping.HttpAggregator.Models;
+﻿using TTcms.Web.Shopping.HttpAggregator.Config;
+using TTcms.Web.Shopping.HttpAggregator.Models;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Text.Json;
 
-namespace Microsoft.eShopOnContainers.Web.Shopping.HttpAggregator.Services
+namespace TTcms.Web.Shopping.HttpAggregator.Services
 {
     public class OrderApiClient : IOrderApiClient
     {

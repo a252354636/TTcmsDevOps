@@ -1,13 +1,13 @@
 ﻿using Google.Protobuf.Collections;
 using Grpc.Core;
 using MediatR;
-using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Extensions;
+using TTcms.BuildingBlocks.EventBus.Extensions;
 using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using ApiModels = Ordering.API.Application.Models;
-using AppCommand = Microsoft.eShopOnContainers.Services.Ordering.API.Application.Commands;
+using AppCommand = TTcms.Services.Ordering.API.Application.Commands;
 
 namespace GrpcOrdering
 {

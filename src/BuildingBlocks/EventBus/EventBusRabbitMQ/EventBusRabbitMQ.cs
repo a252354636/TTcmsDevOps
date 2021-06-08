@@ -1,8 +1,8 @@
 ﻿using Autofac;
-using Microsoft.eShopOnContainers.BuildingBlocks.EventBus;
-using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Abstractions;
-using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Events;
-using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Extensions;
+using TTcms.BuildingBlocks.EventBus;
+using TTcms.BuildingBlocks.EventBus.Abstractions;
+using TTcms.BuildingBlocks.EventBus.Events;
+using TTcms.BuildingBlocks.EventBus.Extensions;
 using Microsoft.Extensions.Logging;
 using Polly;
 using Polly.Retry;
@@ -15,7 +15,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Text.Json;
 
-namespace Microsoft.eShopOnContainers.BuildingBlocks.EventBusRabbitMQ
+namespace TTcms.BuildingBlocks.EventBusRabbitMQ
 {
     public class EventBusRabbitMQ : IEventBus, IDisposable
     {

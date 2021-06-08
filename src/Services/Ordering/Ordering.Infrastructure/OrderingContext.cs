@@ -2,9 +2,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.EntityFrameworkCore.Storage;
-using Microsoft.eShopOnContainers.Services.Ordering.Domain.AggregatesModel.BuyerAggregate;
-using Microsoft.eShopOnContainers.Services.Ordering.Domain.AggregatesModel.OrderAggregate;
-using Microsoft.eShopOnContainers.Services.Ordering.Domain.Seedwork;
+using TTcms.Services.Ordering.Domain.AggregatesModel.BuyerAggregate;
+using TTcms.Services.Ordering.Domain.AggregatesModel.OrderAggregate;
+using TTcms.Services.Ordering.Domain.Seedwork;
 using Ordering.Infrastructure;
 using Ordering.Infrastructure.EntityConfigurations;
 using System;
@@ -12,7 +12,7 @@ using System.Data;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopOnContainers.Services.Ordering.Infrastructure
+namespace TTcms.Services.Ordering.Infrastructure
 {
     public class OrderingContext : DbContext, IUnitOfWork
     {
@@ -125,7 +125,7 @@ namespace Microsoft.eShopOnContainers.Services.Ordering.Infrastructure
         public OrderingContext CreateDbContext(string[] args)
         {
             var optionsBuilder = new DbContextOptionsBuilder<OrderingContext>()
-                .UseSqlServer("Server=.;Initial Catalog=Microsoft.eShopOnContainers.Services.OrderingDb;Integrated Security=true");
+                .UseSqlServer("Server=.;Initial Catalog=TTcms.Services.OrderingDb;Integrated Security=true");
 
             return new OrderingContext(optionsBuilder.Options, new NoMediator());
         }

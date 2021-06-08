@@ -1,6 +1,6 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Catalog.API.IntegrationEvents.Events
+﻿namespace TTcms.Services.Catalog.API.IntegrationEvents.Events
 {
-    using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Events;
+    using TTcms.BuildingBlocks.EventBus.Events;
     using System.Collections.Generic;
 
     public record OrderStatusChangedToPaidIntegrationEvent : IntegrationEvent

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Microsoft.eShopOnContainers.WebMVC.ViewModels
+namespace TTcms.WebMVC.ViewModels
 {
     public record Campaign
     {

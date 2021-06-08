@@ -1,8 +1,8 @@
 ﻿using FunctionalTests.Services.Basket;
 using FunctionalTests.Services.Catalog;
-using Microsoft.eShopOnContainers.Services.Basket.API.Model;
-using Microsoft.eShopOnContainers.Services.Catalog.API.Model;
-using Microsoft.eShopOnContainers.Services.Catalog.API.ViewModel;
+using TTcms.Services.Basket.API.Model;
+using TTcms.Services.Catalog.API.Model;
+using TTcms.Services.Catalog.API.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;

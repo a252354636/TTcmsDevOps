@@ -1,10 +1,10 @@
-﻿using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Events;
+﻿using TTcms.BuildingBlocks.EventBus.Events;
 using System;
 using System.Text.Json;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 
-namespace Microsoft.eShopOnContainers.BuildingBlocks.IntegrationEventLogEF
+namespace TTcms.BuildingBlocks.IntegrationEventLogEF
 {
     public class IntegrationEventLogEntry
     {

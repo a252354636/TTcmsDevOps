@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Identity.API.Models.ManageViewModels
+﻿namespace TTcms.Services.Identity.API.Models.ManageViewModels
 {
     public record FactorViewModel
     {

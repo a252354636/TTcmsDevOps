@@ -5,7 +5,7 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopOnContainers.WebMVC.ViewModels
+namespace TTcms.WebMVC.ViewModels
 {
     public class NumberToStringConverter : JsonConverter<string>
     {

@@ -1,4 +1,4 @@
-﻿using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Abstractions;
+﻿using TTcms.BuildingBlocks.EventBus.Abstractions;
 using Microsoft.Extensions.Logging;
 using System.Linq;
 using System.Threading.Tasks;

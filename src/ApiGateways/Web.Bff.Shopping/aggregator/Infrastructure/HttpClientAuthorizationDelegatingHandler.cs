@@ -6,7 +6,7 @@ using System.Net.Http.Headers;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopOnContainers.Web.Shopping.HttpAggregator.Infrastructure
+namespace TTcms.Web.Shopping.HttpAggregator.Infrastructure
 {
     public class HttpClientAuthorizationDelegatingHandler
          : DelegatingHandler

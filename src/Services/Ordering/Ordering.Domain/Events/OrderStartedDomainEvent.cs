@@ -1,5 +1,5 @@
 ﻿using MediatR;
-using Microsoft.eShopOnContainers.Services.Ordering.Domain.AggregatesModel.OrderAggregate;
+using TTcms.Services.Ordering.Domain.AggregatesModel.OrderAggregate;
 using System;
 
 namespace Ordering.Domain.Events

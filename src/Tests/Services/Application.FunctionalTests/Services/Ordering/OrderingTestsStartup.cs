@@ -1,6 +1,6 @@
 ﻿using FunctionalTests.Middleware;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.eShopOnContainers.Services.Ordering.API;
+using TTcms.Services.Ordering.API;
 using Microsoft.Extensions.Configuration;
 
 namespace FunctionalTests.Services.Ordering

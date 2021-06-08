@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Microsoft.eShopOnContainers.WebMVC.ViewModels.Annotations
+namespace TTcms.WebMVC.ViewModels.Annotations
 {
     [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field, AllowMultiple = true)]
     public class CardExpirationAttribute : ValidationAttribute

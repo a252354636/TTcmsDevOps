@@ -1,14 +1,14 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.eShopOnContainers.WebMVC.Controllers;
-using Microsoft.eShopOnContainers.WebMVC.Services;
-using Microsoft.eShopOnContainers.WebMVC.ViewModels;
+using TTcms.WebMVC.Controllers;
+using TTcms.WebMVC.Services;
+using TTcms.WebMVC.ViewModels;
 using Moq;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Xunit;
-using BasketModel = Microsoft.eShopOnContainers.WebMVC.ViewModels.Basket;
+using BasketModel = TTcms.WebMVC.ViewModels.Basket;
 
 namespace UnitTest.Basket.Application
 {

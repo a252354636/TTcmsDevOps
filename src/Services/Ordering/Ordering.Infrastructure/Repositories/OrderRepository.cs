@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.eShopOnContainers.Services.Ordering.Domain.AggregatesModel.OrderAggregate;
-using Microsoft.eShopOnContainers.Services.Ordering.Domain.Seedwork;
+using TTcms.Services.Ordering.Domain.AggregatesModel.OrderAggregate;
+using TTcms.Services.Ordering.Domain.Seedwork;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopOnContainers.Services.Ordering.Infrastructure.Repositories
+namespace TTcms.Services.Ordering.Infrastructure.Repositories
 {
     public class OrderRepository
         : IOrderRepository

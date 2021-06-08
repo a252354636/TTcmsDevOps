@@ -8,7 +8,7 @@ using System;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopOnContainers.WebMVC.Controllers
+namespace TTcms.WebMVC.Controllers
 {
     [Authorize(AuthenticationSchemes = OpenIdConnectDefaults.AuthenticationScheme)]
     public class AccountController : Controller
@@ -47,7 +47,7 @@ namespace Microsoft.eShopOnContainers.WebMVC.Controllers
             // https://github.com/aspnet/Mvc/issues/5853
             var homeUrl = Url.Action(nameof(CatalogController.Index), "Catalog");
             return new SignOutResult(OpenIdConnectDefaults.AuthenticationScheme,
-                new AspNetCore.Authentication.AuthenticationProperties { RedirectUri = homeUrl });
+                new AuthenticationProperties { RedirectUri = homeUrl });
         }
     }
 }

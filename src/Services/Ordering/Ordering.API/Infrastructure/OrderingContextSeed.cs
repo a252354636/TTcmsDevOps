@@ -1,11 +1,11 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Ordering.API.Infrastructure
+﻿namespace TTcms.Services.Ordering.API.Infrastructure
 {
     using global::Ordering.API.Extensions;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.EntityFrameworkCore;
-    using Microsoft.eShopOnContainers.Services.Ordering.Domain.AggregatesModel.BuyerAggregate;
-    using Microsoft.eShopOnContainers.Services.Ordering.Domain.AggregatesModel.OrderAggregate;
-    using Microsoft.eShopOnContainers.Services.Ordering.Domain.SeedWork;
+    using TTcms.Services.Ordering.Domain.AggregatesModel.BuyerAggregate;
+    using TTcms.Services.Ordering.Domain.AggregatesModel.OrderAggregate;
+    using TTcms.Services.Ordering.Domain.SeedWork;
     using Microsoft.Extensions.Logging;
     using Microsoft.Extensions.Options;
     using Ordering.Infrastructure;

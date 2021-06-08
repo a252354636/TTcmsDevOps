@@ -2,16 +2,16 @@
 using Basket.API.Model;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Abstractions;
-using Microsoft.eShopOnContainers.Services.Basket.API.Model;
-using Microsoft.eShopOnContainers.Services.Basket.API.Services;
+using TTcms.BuildingBlocks.EventBus.Abstractions;
+using TTcms.Services.Basket.API.Model;
+using TTcms.Services.Basket.API.Services;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Net;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopOnContainers.Services.Basket.API.Controllers
+namespace TTcms.Services.Basket.API.Controllers
 {
     [Route("api/v1/[controller]")]
     [Authorize]

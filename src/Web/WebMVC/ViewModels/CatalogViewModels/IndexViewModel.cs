@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.eShopOnContainers.WebMVC.ViewModels.Pagination;
+using TTcms.WebMVC.ViewModels.Pagination;
 using System.Collections.Generic;
 
-namespace Microsoft.eShopOnContainers.WebMVC.ViewModels.CatalogViewModels
+namespace TTcms.WebMVC.ViewModels.CatalogViewModels
 {
     public class IndexViewModel
     {

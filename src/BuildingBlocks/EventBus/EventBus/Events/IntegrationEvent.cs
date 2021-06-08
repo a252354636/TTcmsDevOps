@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.Json.Serialization;
 
-namespace Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Events
+namespace TTcms.BuildingBlocks.EventBus.Events
 {
     public record IntegrationEvent
     {        

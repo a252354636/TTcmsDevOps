@@ -4,8 +4,8 @@ namespace UnitTest.Ordering.Application
 {
     using global::Ordering.API.Application.Models;
     using MediatR;
-    using Microsoft.eShopOnContainers.Services.Ordering.API.Application.Commands;
-    using Microsoft.eShopOnContainers.Services.Ordering.Infrastructure.Idempotency;
+    using TTcms.Services.Ordering.API.Application.Commands;
+    using TTcms.Services.Ordering.Infrastructure.Idempotency;
     using Microsoft.Extensions.Logging;
     using Moq;
     using System.Collections.Generic;

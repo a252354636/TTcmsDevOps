@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.eShopOnContainers.WebMVC.ViewModels;
+using TTcms.WebMVC.ViewModels;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopOnContainers.WebMVC.Services
+namespace TTcms.WebMVC.Services
 {
     public interface ICatalogService
     {

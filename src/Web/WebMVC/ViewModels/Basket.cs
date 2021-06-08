@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Microsoft.eShopOnContainers.WebMVC.ViewModels
+namespace TTcms.WebMVC.ViewModels
 {
     public record Basket
     {

@@ -18,7 +18,7 @@ namespace Webhooks.API.Infrastructure
         public WebhooksContext CreateDbContext(string[] args)
         {
             var optionsBuilder = new DbContextOptionsBuilder<WebhooksContext>()
-                .UseSqlServer("Server=.;Initial Catalog=Microsoft.eShopOnContainers.Services.CatalogDb;Integrated Security=true");
+                .UseSqlServer("Server=.;Initial Catalog=TTcms.Services.CatalogDb;Integrated Security=true");
 
             return new WebhooksContext(optionsBuilder.Options);
         }

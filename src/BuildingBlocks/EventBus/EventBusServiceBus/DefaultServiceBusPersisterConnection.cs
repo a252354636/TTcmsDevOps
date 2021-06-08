@@ -1,7 +1,7 @@
 ﻿using Microsoft.Azure.ServiceBus;
 using System;
 
-namespace Microsoft.eShopOnContainers.BuildingBlocks.EventBusServiceBus
+namespace TTcms.BuildingBlocks.EventBusServiceBus
 {
     public class DefaultServiceBusPersisterConnection : IServiceBusPersisterConnection
     {

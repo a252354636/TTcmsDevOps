@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Microsoft.eShopOnContainers.Mobile.Shopping.HttpAggregator.Controllers
+namespace TTcms.Mobile.Shopping.HttpAggregator.Controllers
 {
     [Route("")]
     public class HomeController : Controller

@@ -1,10 +1,10 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Extensions;
-using Microsoft.eShopOnContainers.Services.Ordering.API.Application.Commands;
-using Microsoft.eShopOnContainers.Services.Ordering.API.Application.Queries;
-using Microsoft.eShopOnContainers.Services.Ordering.API.Infrastructure.Services;
+using TTcms.BuildingBlocks.EventBus.Extensions;
+using TTcms.Services.Ordering.API.Application.Commands;
+using TTcms.Services.Ordering.API.Application.Queries;
+using TTcms.Services.Ordering.API.Infrastructure.Services;
 using Microsoft.Extensions.Logging;
 using Ordering.API.Application.Commands;
 using System;
@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopOnContainers.Services.Ordering.API.Controllers
+namespace TTcms.Services.Ordering.API.Controllers
 {
     [Route("api/v1/[controller]")]
     [Authorize]

@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Catalog.API
+﻿namespace TTcms.Services.Catalog.API
 {
     public class CatalogSettings
     {

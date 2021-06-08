@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Microsoft.eShopOnContainers.Services.Ordering.API.Application.Queries
+namespace TTcms.Services.Ordering.API.Application.Queries
 {
     public record Orderitem
     {

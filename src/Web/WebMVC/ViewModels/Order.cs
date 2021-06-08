@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.eShopOnContainers.WebMVC.ViewModels.Annotations;
+using TTcms.WebMVC.ViewModels.Annotations;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 using WebMVC.Services.ModelDTOs;
 
-namespace Microsoft.eShopOnContainers.WebMVC.ViewModels
+namespace TTcms.WebMVC.ViewModels
 {
     public class Order
     { 

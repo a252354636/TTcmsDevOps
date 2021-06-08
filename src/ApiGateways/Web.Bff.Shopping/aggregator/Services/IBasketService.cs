@@ -1,7 +1,7 @@
-﻿using Microsoft.eShopOnContainers.Web.Shopping.HttpAggregator.Models;
+﻿using TTcms.Web.Shopping.HttpAggregator.Models;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopOnContainers.Web.Shopping.HttpAggregator.Services
+namespace TTcms.Web.Shopping.HttpAggregator.Services
 {
     public interface IBasketService
     {

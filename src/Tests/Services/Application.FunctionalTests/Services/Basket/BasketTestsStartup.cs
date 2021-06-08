@@ -1,6 +1,6 @@
 ﻿using FunctionalTests.Middleware;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.eShopOnContainers.Services.Basket.API;
+using TTcms.Services.Basket.API;
 using Microsoft.Extensions.Configuration;
 
 namespace FunctionalTests.Services.Basket

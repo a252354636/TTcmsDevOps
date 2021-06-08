@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Catalog.API.Infrastructure
+﻿namespace TTcms.Services.Catalog.API.Infrastructure
 {
     using EntityConfigurations;
     using Microsoft.EntityFrameworkCore;
@@ -28,7 +28,7 @@
         public CatalogContext CreateDbContext(string[] args)
         {
             var optionsBuilder = new DbContextOptionsBuilder<CatalogContext>()
-                .UseSqlServer("Server=.;Initial Catalog=Microsoft.eShopOnContainers.Services.CatalogDb;Integrated Security=true");
+                .UseSqlServer("Server=.;Initial Catalog=TTcms.Services.CatalogDb;Integrated Security=true");
 
             return new CatalogContext(optionsBuilder.Options);
         }

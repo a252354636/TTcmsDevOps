@@ -1,6 +1,6 @@
 ﻿using System.Security.Principal;
 
-namespace Microsoft.eShopOnContainers.WebMVC.Services
+namespace TTcms.WebMVC.Services
 {
     public interface IIdentityParser<T>
     {

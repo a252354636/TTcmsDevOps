@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Ordering.API
+﻿namespace TTcms.Services.Ordering.API
 {
     public class OrderingSettings
     {

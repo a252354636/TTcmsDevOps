@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Extensions
+namespace TTcms.BuildingBlocks.EventBus.Extensions
 {
     public static class GenericTypeExtensions
     {

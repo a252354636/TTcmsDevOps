@@ -1,11 +1,11 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Ordering.API.Application.Commands
+﻿namespace TTcms.Services.Ordering.API.Application.Commands
 {
     using Domain.AggregatesModel.OrderAggregate;
     using global::Ordering.API.Application.IntegrationEvents;
     using global::Ordering.API.Application.IntegrationEvents.Events;
     using MediatR;
-    using Microsoft.eShopOnContainers.Services.Ordering.API.Infrastructure.Services;
-    using Microsoft.eShopOnContainers.Services.Ordering.Infrastructure.Idempotency;
+    using TTcms.Services.Ordering.API.Infrastructure.Services;
+    using TTcms.Services.Ordering.Infrastructure.Idempotency;
     using Microsoft.Extensions.Logging;
     using System;
     using System.Threading;

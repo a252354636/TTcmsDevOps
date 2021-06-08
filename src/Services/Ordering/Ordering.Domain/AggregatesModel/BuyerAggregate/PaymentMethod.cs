@@ -1,8 +1,8 @@
-﻿using Microsoft.eShopOnContainers.Services.Ordering.Domain.Seedwork;
+﻿using TTcms.Services.Ordering.Domain.Seedwork;
 using Ordering.Domain.Exceptions;
 using System;
 
-namespace Microsoft.eShopOnContainers.Services.Ordering.Domain.AggregatesModel.BuyerAggregate
+namespace TTcms.Services.Ordering.Domain.AggregatesModel.BuyerAggregate
 {
     public class PaymentMethod
         : Entity

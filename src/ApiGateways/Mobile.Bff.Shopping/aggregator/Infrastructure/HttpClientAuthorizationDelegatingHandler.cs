@@ -7,7 +7,7 @@ using System.Net.Http.Headers;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopOnContainers.Mobile.Shopping.HttpAggregator.Infrastructure
+namespace TTcms.Mobile.Shopping.HttpAggregator.Infrastructure
 {
     public class HttpClientAuthorizationDelegatingHandler : DelegatingHandler
     {

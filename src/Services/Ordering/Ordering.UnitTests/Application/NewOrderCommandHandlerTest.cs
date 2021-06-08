@@ -1,7 +1,7 @@
-﻿using Microsoft.eShopOnContainers.Services.Ordering.API.Application.Commands;
-using Microsoft.eShopOnContainers.Services.Ordering.API.Infrastructure.Services;
-using Microsoft.eShopOnContainers.Services.Ordering.Domain.AggregatesModel.BuyerAggregate;
-using Microsoft.eShopOnContainers.Services.Ordering.Domain.AggregatesModel.OrderAggregate;
+﻿using TTcms.Services.Ordering.API.Application.Commands;
+using TTcms.Services.Ordering.API.Infrastructure.Services;
+using TTcms.Services.Ordering.Domain.AggregatesModel.BuyerAggregate;
+using TTcms.Services.Ordering.Domain.AggregatesModel.OrderAggregate;
 using Moq;
 using System;
 using System.Threading;

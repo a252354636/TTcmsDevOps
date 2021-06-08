@@ -11,15 +11,15 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.ServiceBus;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.eShopOnContainers.BuildingBlocks.EventBus;
-using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Abstractions;
-using Microsoft.eShopOnContainers.BuildingBlocks.EventBusRabbitMQ;
-using Microsoft.eShopOnContainers.BuildingBlocks.EventBusServiceBus;
-using Microsoft.eShopOnContainers.BuildingBlocks.IntegrationEventLogEF;
-using Microsoft.eShopOnContainers.BuildingBlocks.IntegrationEventLogEF.Services;
-using Microsoft.eShopOnContainers.Services.Catalog.API.Infrastructure;
-using Microsoft.eShopOnContainers.Services.Catalog.API.IntegrationEvents.EventHandling;
-using Microsoft.eShopOnContainers.Services.Catalog.API.IntegrationEvents.Events;
+using TTcms.BuildingBlocks.EventBus;
+using TTcms.BuildingBlocks.EventBus.Abstractions;
+using TTcms.BuildingBlocks.EventBusRabbitMQ;
+using TTcms.BuildingBlocks.EventBusServiceBus;
+using TTcms.BuildingBlocks.IntegrationEventLogEF;
+using TTcms.BuildingBlocks.IntegrationEventLogEF.Services;
+using TTcms.Services.Catalog.API.Infrastructure;
+using TTcms.Services.Catalog.API.IntegrationEvents.EventHandling;
+using TTcms.Services.Catalog.API.IntegrationEvents.Events;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
@@ -32,7 +32,7 @@ using System.Data.Common;
 using System.IO;
 using System.Reflection;
 
-namespace Microsoft.eShopOnContainers.Services.Catalog.API
+namespace TTcms.Services.Catalog.API
 {
     public class Startup
     {

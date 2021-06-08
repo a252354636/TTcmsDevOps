@@ -2,8 +2,8 @@
 {
     using Events;
     using MediatR;
-    using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Abstractions;
-    using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Extensions;
+    using TTcms.BuildingBlocks.EventBus.Abstractions;
+    using TTcms.BuildingBlocks.EventBus.Extensions;
     using Microsoft.Extensions.Logging;
     using Ordering.API.Application.Commands;
     using Serilog.Context;

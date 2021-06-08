@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.Features;
 
-namespace Microsoft.eShopOnContainers.Services.Basket.API
+namespace TTcms.Services.Basket.API
 {
     internal class TestHttpResponseTrailersFeature : IHttpResponseTrailersFeature
     {

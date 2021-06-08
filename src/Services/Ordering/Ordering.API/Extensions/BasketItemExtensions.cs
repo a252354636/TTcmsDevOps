@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using static Microsoft.eShopOnContainers.Services.Ordering.API.Application.Commands.CreateOrderCommand;
+using static TTcms.Services.Ordering.API.Application.Commands.CreateOrderCommand;
 
 namespace Ordering.API.Application.Models
 {

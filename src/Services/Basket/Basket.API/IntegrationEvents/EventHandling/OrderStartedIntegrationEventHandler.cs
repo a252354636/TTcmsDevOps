@@ -1,6 +1,6 @@
 ﻿using Basket.API.IntegrationEvents.Events;
-using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Abstractions;
-using Microsoft.eShopOnContainers.Services.Basket.API.Model;
+using TTcms.BuildingBlocks.EventBus.Abstractions;
+using TTcms.Services.Basket.API.Model;
 using Microsoft.Extensions.Logging;
 using Serilog.Context;
 using System;

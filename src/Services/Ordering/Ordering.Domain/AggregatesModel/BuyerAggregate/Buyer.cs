@@ -1,10 +1,10 @@
-﻿using Microsoft.eShopOnContainers.Services.Ordering.Domain.Seedwork;
+﻿using TTcms.Services.Ordering.Domain.Seedwork;
 using Ordering.Domain.Events;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Microsoft.eShopOnContainers.Services.Ordering.Domain.AggregatesModel.BuyerAggregate
+namespace TTcms.Services.Ordering.Domain.AggregatesModel.BuyerAggregate
 {
     public class Buyer
       : Entity, IAggregateRoot

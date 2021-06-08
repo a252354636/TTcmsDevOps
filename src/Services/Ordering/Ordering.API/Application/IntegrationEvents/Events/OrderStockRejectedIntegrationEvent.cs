@@ -1,6 +1,6 @@
 ﻿namespace Ordering.API.Application.IntegrationEvents.Events
 {
-    using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Events;
+    using TTcms.BuildingBlocks.EventBus.Events;
     using System.Collections.Generic;
 
     public record OrderStockRejectedIntegrationEvent : IntegrationEvent

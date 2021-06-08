@@ -1,4 +1,4 @@
-﻿using Microsoft.eShopOnContainers.Services.Basket.API.Model;
+﻿using TTcms.Services.Basket.API.Model;
 using Microsoft.Extensions.Logging;
 using StackExchange.Redis;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Text.Json;
 
-namespace Microsoft.eShopOnContainers.Services.Basket.API.Infrastructure.Repositories
+namespace TTcms.Services.Basket.API.Infrastructure.Repositories
 {
     public class RedisBasketRepository : IBasketRepository
     {

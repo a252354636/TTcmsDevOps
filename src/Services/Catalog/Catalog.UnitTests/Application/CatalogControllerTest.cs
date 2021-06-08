@@ -1,11 +1,11 @@
 ﻿using Catalog.API.IntegrationEvents;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.eShopOnContainers.Services.Catalog.API;
-using Microsoft.eShopOnContainers.Services.Catalog.API.Controllers;
-using Microsoft.eShopOnContainers.Services.Catalog.API.Infrastructure;
-using Microsoft.eShopOnContainers.Services.Catalog.API.Model;
-using Microsoft.eShopOnContainers.Services.Catalog.API.ViewModel;
+using TTcms.Services.Catalog.API;
+using TTcms.Services.Catalog.API.Controllers;
+using TTcms.Services.Catalog.API.Infrastructure;
+using TTcms.Services.Catalog.API.Model;
+using TTcms.Services.Catalog.API.ViewModel;
 using Microsoft.Extensions.Options;
 using Moq;
 using System.Collections.Generic;

@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
-using Microsoft.eShopOnContainers.Services.Ordering.Infrastructure;
+using TTcms.Services.Ordering.Infrastructure;
 using Microsoft.Extensions.Configuration;
 using System.IO;
 

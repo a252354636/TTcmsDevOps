@@ -1,6 +1,6 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Catalog.API.Infrastructure
+﻿namespace TTcms.Services.Catalog.API.Infrastructure
 {
-    using Extensions.Logging;
+    using Microsoft.Extensions.Logging;
     using global::Catalog.API.Extensions;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.Extensions.Options;

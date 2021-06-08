@@ -1,5 +1,5 @@
 ﻿using FluentValidation;
-using Microsoft.eShopOnContainers.Services.Ordering.API.Application.Commands;
+using TTcms.Services.Ordering.API.Application.Commands;
 using Microsoft.Extensions.Logging;
 
 namespace Ordering.API.Application.Validations

@@ -8,10 +8,10 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
-using Microsoft.eShopOnContainers.Mobile.Shopping.HttpAggregator.Config;
-using Microsoft.eShopOnContainers.Mobile.Shopping.HttpAggregator.Filters.Basket.API.Infrastructure.Filters;
-using Microsoft.eShopOnContainers.Mobile.Shopping.HttpAggregator.Infrastructure;
-using Microsoft.eShopOnContainers.Mobile.Shopping.HttpAggregator.Services;
+using TTcms.Mobile.Shopping.HttpAggregator.Config;
+using TTcms.Mobile.Shopping.HttpAggregator.Filters.Basket.API.Infrastructure.Filters;
+using TTcms.Mobile.Shopping.HttpAggregator.Infrastructure;
+using TTcms.Mobile.Shopping.HttpAggregator.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
@@ -23,7 +23,7 @@ using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 
-namespace Microsoft.eShopOnContainers.Mobile.Shopping.HttpAggregator
+namespace TTcms.Mobile.Shopping.HttpAggregator
 {
     public class Startup
     {

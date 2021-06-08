@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Catalog.API.IntegrationEvents.Events
+﻿namespace TTcms.Services.Catalog.API.IntegrationEvents.Events
 {
     using BuildingBlocks.EventBus.Events;
     using System.Collections.Generic;

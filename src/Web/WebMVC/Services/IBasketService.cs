@@ -1,9 +1,9 @@
-﻿using Microsoft.eShopOnContainers.WebMVC.ViewModels;
+﻿using TTcms.WebMVC.ViewModels;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using WebMVC.Services.ModelDTOs;
 
-namespace Microsoft.eShopOnContainers.WebMVC.Services
+namespace TTcms.WebMVC.Services
 {
     public interface IBasketService
     {

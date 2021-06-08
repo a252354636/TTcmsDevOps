@@ -2,7 +2,7 @@
 using Ordering.API.Application.Models;
 using System.Collections.Generic;
 
-namespace Microsoft.eShopOnContainers.Services.Ordering.API.Application.Commands
+namespace TTcms.Services.Ordering.API.Application.Commands
 {
     public class CreateOrderDraftCommand : IRequest<OrderDraftDTO>
     {

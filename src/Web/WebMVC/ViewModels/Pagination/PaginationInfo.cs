@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.WebMVC.ViewModels.Pagination
+﻿namespace TTcms.WebMVC.ViewModels.Pagination
 {
     public class PaginationInfo
     {

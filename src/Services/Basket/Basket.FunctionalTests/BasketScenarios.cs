@@ -1,5 +1,5 @@
 ﻿using Basket.FunctionalTests.Base;
-using Microsoft.eShopOnContainers.Services.Basket.API.Model;
+using TTcms.Services.Basket.API.Model;
 using System;
 using System.Net.Http;
 using System.Text;

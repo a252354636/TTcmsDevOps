@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.eShopOnContainers.WebMVC.Services;
-using Microsoft.eShopOnContainers.WebMVC.ViewModels;
+using TTcms.WebMVC.Services;
+using TTcms.WebMVC.ViewModels;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Text.Json;

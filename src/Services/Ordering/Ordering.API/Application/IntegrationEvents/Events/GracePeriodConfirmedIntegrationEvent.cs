@@ -1,6 +1,6 @@
 ﻿namespace Ordering.API.Application.IntegrationEvents.Events
 {
-    using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Events;
+    using TTcms.BuildingBlocks.EventBus.Events;
 
     public record GracePeriodConfirmedIntegrationEvent : IntegrationEvent
     {

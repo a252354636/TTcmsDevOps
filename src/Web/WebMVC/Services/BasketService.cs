@@ -1,4 +1,4 @@
-﻿using Microsoft.eShopOnContainers.WebMVC.ViewModels;
+﻿using TTcms.WebMVC.ViewModels;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using WebMVC.Infrastructure;
 using WebMVC.Services.ModelDTOs;
 using System.Text.Json;
 
-namespace Microsoft.eShopOnContainers.WebMVC.Services
+namespace TTcms.WebMVC.Services
 {
     public class BasketService : IBasketService
     {

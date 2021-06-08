@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.eShopOnContainers.WebMVC.Services;
-using Microsoft.eShopOnContainers.WebMVC.ViewModels.CatalogViewModels;
-using Microsoft.eShopOnContainers.WebMVC.ViewModels.Pagination;
+using TTcms.WebMVC.Services;
+using TTcms.WebMVC.ViewModels.CatalogViewModels;
+using TTcms.WebMVC.ViewModels.Pagination;
 using System;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopOnContainers.WebMVC.Controllers
+namespace TTcms.WebMVC.Controllers
 {
     public class CatalogController : Controller
     {

@@ -4,7 +4,7 @@ using Swashbuckle.AspNetCore.SwaggerGen;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Microsoft.eShopOnContainers.Web.Shopping.HttpAggregator.Filters
+namespace TTcms.Web.Shopping.HttpAggregator.Filters
 {
     namespace Basket.API.Infrastructure.Filters
     {
@@ -30,7 +30,7 @@ namespace Microsoft.eShopOnContainers.Web.Shopping.HttpAggregator.Filters
                 {
                     new OpenApiSecurityRequirement
                     {
-                        [ oAuthScheme ] = new [] { "Microsoft.eShopOnContainers.Web.Shopping.HttpAggregator" }
+                        [ oAuthScheme ] = new [] { "TTcms.Web.Shopping.HttpAggregator" }
                     }
                 };
             }

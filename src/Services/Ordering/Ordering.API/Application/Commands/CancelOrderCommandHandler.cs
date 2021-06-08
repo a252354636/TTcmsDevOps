@@ -1,7 +1,7 @@
 ﻿using MediatR;
-using Microsoft.eShopOnContainers.Services.Ordering.API.Application.Commands;
-using Microsoft.eShopOnContainers.Services.Ordering.Domain.AggregatesModel.OrderAggregate;
-using Microsoft.eShopOnContainers.Services.Ordering.Infrastructure.Idempotency;
+using TTcms.Services.Ordering.API.Application.Commands;
+using TTcms.Services.Ordering.Domain.AggregatesModel.OrderAggregate;
+using TTcms.Services.Ordering.Infrastructure.Idempotency;
 using Microsoft.Extensions.Logging;
 using System.Threading;
 using System.Threading.Tasks;

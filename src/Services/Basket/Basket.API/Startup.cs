@@ -11,16 +11,16 @@ using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Azure.ServiceBus;
-using Microsoft.eShopOnContainers.BuildingBlocks.EventBus;
-using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Abstractions;
-using Microsoft.eShopOnContainers.BuildingBlocks.EventBusRabbitMQ;
-using Microsoft.eShopOnContainers.BuildingBlocks.EventBusServiceBus;
-using Microsoft.eShopOnContainers.Services.Basket.API.Controllers;
-using Microsoft.eShopOnContainers.Services.Basket.API.Infrastructure.Repositories;
-using Microsoft.eShopOnContainers.Services.Basket.API.IntegrationEvents.EventHandling;
-using Microsoft.eShopOnContainers.Services.Basket.API.IntegrationEvents.Events;
-using Microsoft.eShopOnContainers.Services.Basket.API.Model;
-using Microsoft.eShopOnContainers.Services.Basket.API.Services;
+using TTcms.BuildingBlocks.EventBus;
+using TTcms.BuildingBlocks.EventBus.Abstractions;
+using TTcms.BuildingBlocks.EventBusRabbitMQ;
+using TTcms.BuildingBlocks.EventBusServiceBus;
+using TTcms.Services.Basket.API.Controllers;
+using TTcms.Services.Basket.API.Infrastructure.Repositories;
+using TTcms.Services.Basket.API.IntegrationEvents.EventHandling;
+using TTcms.Services.Basket.API.IntegrationEvents.Events;
+using TTcms.Services.Basket.API.Model;
+using TTcms.Services.Basket.API.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
@@ -34,7 +34,7 @@ using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.IO;
 
-namespace Microsoft.eShopOnContainers.Services.Basket.API
+namespace TTcms.Services.Basket.API
 {
     public class Startup
     {

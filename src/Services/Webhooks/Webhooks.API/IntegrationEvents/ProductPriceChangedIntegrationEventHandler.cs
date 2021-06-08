@@ -1,4 +1,4 @@
-﻿using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Abstractions;
+﻿using TTcms.BuildingBlocks.EventBus.Abstractions;
 using System.Threading.Tasks;
 
 namespace Webhooks.API.IntegrationEvents

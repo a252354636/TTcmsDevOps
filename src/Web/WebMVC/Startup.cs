@@ -7,8 +7,8 @@ using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
-using Microsoft.eShopOnContainers.WebMVC.Services;
-using Microsoft.eShopOnContainers.WebMVC.ViewModels;
+using TTcms.WebMVC.Services;
+using TTcms.WebMVC.ViewModels;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
@@ -19,7 +19,7 @@ using System;
 using System.IdentityModel.Tokens.Jwt;
 using WebMVC.Infrastructure;
 
-namespace Microsoft.eShopOnContainers.WebMVC
+namespace TTcms.WebMVC
 {
     public class Startup
     {
@@ -75,7 +75,7 @@ namespace Microsoft.eShopOnContainers.WebMVC
 
             // Fix samesite issue when running eShop from docker-compose locally as by default http protocol is being used
             // Refer to https://github.com/dotnet-architecture/eShopOnContainers/issues/1391
-            app.UseCookiePolicy(new CookiePolicyOptions { MinimumSameSitePolicy = AspNetCore.Http.SameSiteMode.Lax });
+            app.UseCookiePolicy(new CookiePolicyOptions { MinimumSameSitePolicy = SameSiteMode.Lax });
 
             app.UseRouting();
 

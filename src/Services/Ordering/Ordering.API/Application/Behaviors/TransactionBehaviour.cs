@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Extensions;
-using Microsoft.eShopOnContainers.Services.Ordering.Infrastructure;
+using TTcms.BuildingBlocks.EventBus.Extensions;
+using TTcms.Services.Ordering.Infrastructure;
 using Microsoft.Extensions.Logging;
 using Ordering.API.Application.IntegrationEvents;
 using Serilog.Context;

@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.eShopOnContainers.Services.Identity.API.Models;
+using TTcms.Services.Identity.API.Models;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopOnContainers.Services.Identity.API.Services
+namespace TTcms.Services.Identity.API.Services
 {
     public class EFLoginService : ILoginService<ApplicationUser>
     {

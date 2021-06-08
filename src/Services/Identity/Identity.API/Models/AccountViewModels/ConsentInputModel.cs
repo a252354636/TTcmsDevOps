@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Microsoft.eShopOnContainers.Services.Identity.API.Models.AccountViewModels
+namespace TTcms.Services.Identity.API.Models.AccountViewModels
 {
     public record ConsentInputModel
     {

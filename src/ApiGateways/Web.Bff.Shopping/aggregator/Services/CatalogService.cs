@@ -1,11 +1,11 @@
 ﻿using CatalogApi;
-using Microsoft.eShopOnContainers.Web.Shopping.HttpAggregator.Models;
+using TTcms.Web.Shopping.HttpAggregator.Models;
 using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopOnContainers.Web.Shopping.HttpAggregator.Services
+namespace TTcms.Web.Shopping.HttpAggregator.Services
 {
     public class CatalogService : ICatalogService
     {

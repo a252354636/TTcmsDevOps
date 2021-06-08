@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.SignalR;
-using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Abstractions;
+using TTcms.BuildingBlocks.EventBus.Abstractions;
 using Microsoft.Extensions.Logging;
 using Ordering.SignalrHub.IntegrationEvents.Events;
 using Serilog.Context;

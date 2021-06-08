@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.eShopOnContainers.Mobile.Shopping.HttpAggregator;
+using TTcms.Mobile.Shopping.HttpAggregator;
 using Serilog;
 
 

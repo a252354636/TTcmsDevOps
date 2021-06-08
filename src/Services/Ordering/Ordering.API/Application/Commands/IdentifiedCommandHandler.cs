@@ -1,12 +1,12 @@
 ﻿using MediatR;
-using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Extensions;
-using Microsoft.eShopOnContainers.Services.Ordering.Infrastructure.Idempotency;
+using TTcms.BuildingBlocks.EventBus.Extensions;
+using TTcms.Services.Ordering.Infrastructure.Idempotency;
 using Microsoft.Extensions.Logging;
 using Ordering.API.Application.Commands;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopOnContainers.Services.Ordering.API.Application.Commands
+namespace TTcms.Services.Ordering.API.Application.Commands
 {
     /// <summary>
     /// Provides a base implementation for handling duplicate request and ensuring idempotent updates, in the cases where

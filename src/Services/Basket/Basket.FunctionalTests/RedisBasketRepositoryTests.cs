@@ -1,6 +1,6 @@
 ﻿using Basket.FunctionalTests.Base;
-using Microsoft.eShopOnContainers.Services.Basket.API.Infrastructure.Repositories;
-using Microsoft.eShopOnContainers.Services.Basket.API.Model;
+using TTcms.Services.Basket.API.Infrastructure.Repositories;
+using TTcms.Services.Basket.API.Model;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using StackExchange.Redis;

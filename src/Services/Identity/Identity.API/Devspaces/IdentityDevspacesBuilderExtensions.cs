@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace Microsoft.eShopOnContainers.Services.Identity.API.Devspaces
+namespace TTcms.Services.Identity.API.Devspaces
 {
     static class IdentityDevspacesBuilderExtensions
     {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.eShopOnContainers.Web.Shopping.HttpAggregator;
+using TTcms.Web.Shopping.HttpAggregator;
 using Serilog;
 
 BuildWebHost(args).Run();

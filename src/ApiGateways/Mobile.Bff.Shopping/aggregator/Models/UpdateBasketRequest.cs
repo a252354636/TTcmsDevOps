@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Microsoft.eShopOnContainers.Mobile.Shopping.HttpAggregator.Models
+namespace TTcms.Mobile.Shopping.HttpAggregator.Models
 {
 
     public class UpdateBasketRequest

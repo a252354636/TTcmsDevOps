@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Ordering.API.Application.Queries
+﻿namespace TTcms.Services.Ordering.API.Application.Queries
 {
     using System;
     using System.Collections.Generic;

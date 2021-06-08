@@ -1,9 +1,9 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.eShopOnContainers.Services.Ordering.API.Application.Commands;
-using Microsoft.eShopOnContainers.Services.Ordering.API.Application.Queries;
-using Microsoft.eShopOnContainers.Services.Ordering.API.Controllers;
-using Microsoft.eShopOnContainers.Services.Ordering.API.Infrastructure.Services;
+using TTcms.Services.Ordering.API.Application.Commands;
+using TTcms.Services.Ordering.API.Application.Queries;
+using TTcms.Services.Ordering.API.Controllers;
+using TTcms.Services.Ordering.API.Infrastructure.Services;
 using Microsoft.Extensions.Logging;
 using Moq;
 using Ordering.API.Application.Commands;

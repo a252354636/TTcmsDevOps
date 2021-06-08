@@ -1,6 +1,6 @@
 ﻿using MediatR;
-using Microsoft.eShopOnContainers.Services.Ordering.Domain.Seedwork;
-using Microsoft.eShopOnContainers.Services.Ordering.Infrastructure;
+using TTcms.Services.Ordering.Domain.Seedwork;
+using TTcms.Services.Ordering.Infrastructure;
 using System.Linq;
 using System.Threading.Tasks;
 

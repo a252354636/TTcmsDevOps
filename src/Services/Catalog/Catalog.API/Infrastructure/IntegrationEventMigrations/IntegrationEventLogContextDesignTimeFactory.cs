@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
-using Microsoft.eShopOnContainers.BuildingBlocks.IntegrationEventLogEF;
+using TTcms.BuildingBlocks.IntegrationEventLogEF;
 
 namespace Catalog.API.Infrastructure.IntegrationEventMigrations
 {

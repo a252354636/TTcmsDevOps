@@ -1,10 +1,10 @@
-﻿using Microsoft.eShopOnContainers.WebMVC.ViewModels;
+﻿using TTcms.WebMVC.ViewModels;
 using System;
 using System.Linq;
 using System.Security.Claims;
 using System.Security.Principal;
 
-namespace Microsoft.eShopOnContainers.WebMVC.Services
+namespace TTcms.WebMVC.Services
 {
     public class IdentityParser : IIdentityParser<ApplicationUser>
     {

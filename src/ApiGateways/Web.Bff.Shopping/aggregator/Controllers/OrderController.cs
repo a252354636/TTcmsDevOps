@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.eShopOnContainers.Web.Shopping.HttpAggregator.Models;
-using Microsoft.eShopOnContainers.Web.Shopping.HttpAggregator.Services;
+using TTcms.Web.Shopping.HttpAggregator.Models;
+using TTcms.Web.Shopping.HttpAggregator.Services;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace Microsoft.eShopOnContainers.Web.Shopping.HttpAggregator.Controllers
+namespace TTcms.Web.Shopping.HttpAggregator.Controllers
 {
     [Route("api/v1/[controller]")]
     [Authorize]

@@ -1,8 +1,8 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Catalog.API.IntegrationEvents.EventHandling
+﻿namespace TTcms.Services.Catalog.API.IntegrationEvents.EventHandling
 {
     using BuildingBlocks.EventBus.Abstractions;
     using Infrastructure;
-    using Microsoft.eShopOnContainers.Services.Catalog.API.IntegrationEvents.Events;
+    using TTcms.Services.Catalog.API.IntegrationEvents.Events;
     using Microsoft.Extensions.Logging;
     using Serilog.Context;
     using System.Threading.Tasks;

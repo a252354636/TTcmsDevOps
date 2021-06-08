@@ -2,9 +2,9 @@
 using Basket.API.Model;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Abstractions;
-using Microsoft.eShopOnContainers.Services.Basket.API.Controllers;
-using Microsoft.eShopOnContainers.Services.Basket.API.Model;
+using TTcms.BuildingBlocks.EventBus.Abstractions;
+using TTcms.Services.Basket.API.Controllers;
+using TTcms.Services.Basket.API.Model;
 using Microsoft.Extensions.Logging;
 using Moq;
 using System;
@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Xunit;
-using IBasketIdentityService = Microsoft.eShopOnContainers.Services.Basket.API.Services.IIdentityService;
+using IBasketIdentityService = TTcms.Services.Basket.API.Services.IIdentityService;
 
 namespace UnitTest.Basket.Application
 {

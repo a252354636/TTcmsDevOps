@@ -1,7 +1,7 @@
-﻿using Microsoft.eShopOnContainers.Services.Ordering.Domain.Seedwork;
+﻿using TTcms.Services.Ordering.Domain.Seedwork;
 using Ordering.Domain.Exceptions;
 
-namespace Microsoft.eShopOnContainers.Services.Ordering.Domain.AggregatesModel.OrderAggregate
+namespace TTcms.Services.Ordering.Domain.AggregatesModel.OrderAggregate
 {
     public class OrderItem
         : Entity

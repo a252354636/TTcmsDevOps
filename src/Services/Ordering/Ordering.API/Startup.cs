@@ -1,6 +1,6 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Ordering.API
+﻿namespace TTcms.Services.Ordering.API
 {
-    using AspNetCore.Http;
+    using Microsoft.AspNetCore.Http;
     using Autofac;
     using Autofac.Extensions.DependencyInjection;
     using global::Ordering.API.Application.IntegrationEvents;
@@ -17,13 +17,13 @@
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.Azure.ServiceBus;
     using Microsoft.EntityFrameworkCore;
-    using Microsoft.eShopOnContainers.BuildingBlocks.EventBus;
-    using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Abstractions;
-    using Microsoft.eShopOnContainers.BuildingBlocks.EventBusRabbitMQ;
-    using Microsoft.eShopOnContainers.BuildingBlocks.EventBusServiceBus;
-    using Microsoft.eShopOnContainers.BuildingBlocks.IntegrationEventLogEF;
-    using Microsoft.eShopOnContainers.BuildingBlocks.IntegrationEventLogEF.Services;
-    using Microsoft.eShopOnContainers.Services.Ordering.API.Controllers;
+    using TTcms.BuildingBlocks.EventBus;
+    using TTcms.BuildingBlocks.EventBus.Abstractions;
+    using TTcms.BuildingBlocks.EventBusRabbitMQ;
+    using TTcms.BuildingBlocks.EventBusServiceBus;
+    using TTcms.BuildingBlocks.IntegrationEventLogEF;
+    using TTcms.BuildingBlocks.IntegrationEventLogEF.Services;
+    using TTcms.Services.Ordering.API.Controllers;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Diagnostics.HealthChecks;
@@ -413,8 +413,8 @@
 
             services.AddAuthentication(options =>
             {
-                options.DefaultAuthenticateScheme = AspNetCore.Authentication.JwtBearer.JwtBearerDefaults.AuthenticationScheme;
-                options.DefaultChallengeScheme = AspNetCore.Authentication.JwtBearer.JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultAuthenticateScheme = Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerDefaults.AuthenticationScheme;
 
             }).AddJwtBearer(options =>
             {

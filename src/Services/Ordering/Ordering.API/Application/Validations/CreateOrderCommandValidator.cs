@@ -1,10 +1,10 @@
 ﻿using FluentValidation;
-using Microsoft.eShopOnContainers.Services.Ordering.API.Application.Commands;
+using TTcms.Services.Ordering.API.Application.Commands;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using static Microsoft.eShopOnContainers.Services.Ordering.API.Application.Commands.CreateOrderCommand;
+using static TTcms.Services.Ordering.API.Application.Commands.CreateOrderCommand;
 
 namespace Ordering.API.Application.Validations
 {

@@ -8,11 +8,11 @@ using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.eShopOnContainers.Services.Identity.API.Certificates;
-using Microsoft.eShopOnContainers.Services.Identity.API.Data;
-using Microsoft.eShopOnContainers.Services.Identity.API.Devspaces;
-using Microsoft.eShopOnContainers.Services.Identity.API.Models;
-using Microsoft.eShopOnContainers.Services.Identity.API.Services;
+using TTcms.Services.Identity.API.Certificates;
+using TTcms.Services.Identity.API.Data;
+using TTcms.Services.Identity.API.Devspaces;
+using TTcms.Services.Identity.API.Models;
+using TTcms.Services.Identity.API.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
@@ -21,8 +21,9 @@ using Microsoft.Extensions.Logging;
 using StackExchange.Redis;
 using System;
 using System.Reflection;
+using Microsoft.AspNetCore.Http;
 
-namespace Microsoft.eShopOnContainers.Services.Identity.API
+namespace TTcms.Services.Identity.API
 {
     public class Startup
     {
@@ -157,7 +158,7 @@ namespace Microsoft.eShopOnContainers.Services.Identity.API
             // Fix a problem with chrome. Chrome enabled a new feature "Cookies without SameSite must be secure", 
             // the coockies shold be expided from https, but in eShop, the internal comunicacion in aks and docker compose is http.
             // To avoid this problem, the policy of cookies shold be in Lax mode.
-            app.UseCookiePolicy(new CookiePolicyOptions { MinimumSameSitePolicy = AspNetCore.Http.SameSiteMode.Lax });
+            app.UseCookiePolicy(new CookiePolicyOptions { MinimumSameSitePolicy = SameSiteMode.Lax });
             app.UseRouting();
             app.UseEndpoints(endpoints =>
             {

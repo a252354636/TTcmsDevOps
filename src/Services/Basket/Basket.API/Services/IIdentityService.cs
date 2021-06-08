@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Basket.API.Services
+﻿namespace TTcms.Services.Basket.API.Services
 {
     public interface IIdentityService
     {

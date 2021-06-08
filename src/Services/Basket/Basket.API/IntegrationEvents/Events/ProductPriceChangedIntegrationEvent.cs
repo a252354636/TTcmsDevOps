@@ -1,6 +1,6 @@
-﻿using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Events;
+﻿using TTcms.BuildingBlocks.EventBus.Events;
 
-namespace Microsoft.eShopOnContainers.Services.Basket.API.IntegrationEvents.Events
+namespace TTcms.Services.Basket.API.IntegrationEvents.Events
 {
     // Integration Events notes: 
     // An Event is “something that has happened in the past”, therefore its name has to be   

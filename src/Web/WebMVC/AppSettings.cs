@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.WebMVC
+﻿namespace TTcms.WebMVC
 {
     public class AppSettings
     {
