@@ -178,7 +178,7 @@ namespace Webhooks.API
                 options.DescribeAllEnumsAsStrings();
                 options.SwaggerDoc("v1", new OpenApiInfo
                 {
-                    Title = "eShopOnContainers - Webhooks HTTP API",
+                    Title = "ttcms - Webhooks HTTP API",
                     Version = "v1",
                     Description = "The Webhooks Microservice HTTP API. This is a simple webhooks CRUD registration entrypoint"
                 });

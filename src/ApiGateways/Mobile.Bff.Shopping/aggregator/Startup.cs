@@ -72,7 +72,7 @@ namespace TTcms.Mobile.Shopping.HttpAggregator
             {
                 c.SwaggerEndpoint($"{ (!string.IsNullOrEmpty(pathBase) ? pathBase : string.Empty) }/swagger/v1/swagger.json", "Purchase BFF V1");
 
-                c.OAuthClientId("mobileshoppingaggswaggerui");
+                c.OAuthClientId("mobilttcmspingaggswaggerui");
                 c.OAuthClientSecret(string.Empty);
                 c.OAuthRealm(string.Empty);
                 c.OAuthAppName("Purchase BFF Swagger UI");
@@ -130,7 +130,7 @@ namespace TTcms.Mobile.Shopping.HttpAggregator
 
                             Scopes = new Dictionary<string, string>()
                             {
-                                { "mobileshoppingagg", "Shopping Aggregator for Mobile Clients" }
+                                { "mobilttcmspingagg", "Shopping Aggregator for Mobile Clients" }
                             }
                         }
                     }
@@ -167,7 +167,7 @@ namespace TTcms.Mobile.Shopping.HttpAggregator
             {
                 options.Authority = identityUrl;
                 options.RequireHttpsMetadata = false;
-                options.Audience = "mobileshoppingagg";
+                options.Audience = "mobilttcmspingagg";
             });
 
             return services;

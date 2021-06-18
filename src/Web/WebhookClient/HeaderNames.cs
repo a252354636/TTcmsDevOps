@@ -2,6 +2,6 @@
 {
     static class HeaderNames
     {
-        public const string WebHookCheckHeader = "X-eshop-whtoken";
+        public const string WebHookCheckHeader = "X-ttcms-whtoken";
     }
 }

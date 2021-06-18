@@ -184,7 +184,7 @@ namespace TTcms.Services.Catalog.API
                 hcBuilder
                     .AddAzureServiceBusTopic(
                         configuration["EventBusConnection"],
-                        topicName: "eshop_event_bus",
+                        topicName: "ttcms_event_bus",
                         name: "catalog-servicebus-check",
                         tags: new string[] { "servicebus" });
             }
@@ -259,7 +259,7 @@ namespace TTcms.Services.Catalog.API
                 options.DescribeAllEnumsAsStrings();
                 options.SwaggerDoc("v1", new OpenApiInfo
                 {
-                    Title = "eShopOnContainers - Catalog HTTP API",
+                    Title = "ttcms - Catalog HTTP API",
                     Version = "v1",
                     Description = "The Catalog Microservice HTTP API. This is a Data-Driven/CRUD microservice sample"
                 });

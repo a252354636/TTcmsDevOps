@@ -1,4 +1,4 @@
-﻿using eShopConContainers.WebSPA;
+﻿using TTcmsConContainers.WebSPA;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;

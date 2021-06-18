@@ -73,8 +73,8 @@ namespace TTcms.WebMVC
 
             WebContextSeed.Seed(app, env);
 
-            // Fix samesite issue when running eShop from docker-compose locally as by default http protocol is being used
-            // Refer to https://github.com/dotnet-architecture/eShopOnContainers/issues/1391
+            // Fix samesite issue when running TTcms from docker-compose locally as by default http protocol is being used
+            // Refer to https://github.com/dotnet-architecture/ttcms/issues/1391
             app.UseCookiePolicy(new CookiePolicyOptions { MinimumSameSitePolicy = SameSiteMode.Lax });
 
             app.UseRouting();
@@ -131,7 +131,7 @@ namespace TTcms.WebMVC
             {
                 services.AddDataProtection(opts =>
                 {
-                    opts.ApplicationDiscriminator = "eshop.webmvc";
+                    opts.ApplicationDiscriminator = "ttcms.webmvc";
                 })
                 .PersistKeysToStackExchangeRedis(ConnectionMultiplexer.Connect(configuration["DPConnectionString"]), "DataProtection-Keys");
             }

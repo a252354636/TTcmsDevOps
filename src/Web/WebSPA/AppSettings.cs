@@ -1,4 +1,4 @@
-﻿namespace eShopOnContainers.WebSPA
+﻿namespace ttcms.WebSPA
 {
     public class AppSettings
     {

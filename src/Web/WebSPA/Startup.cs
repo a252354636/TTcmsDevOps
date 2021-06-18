@@ -1,4 +1,4 @@
-﻿using eShopOnContainers.WebSPA;
+﻿using ttcms.WebSPA;
 using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Antiforgery;
 using Microsoft.AspNetCore.Builder;
@@ -15,7 +15,7 @@ using System;
 using System.IO;
 using WebSPA.Infrastructure;
 
-namespace eShopConContainers.WebSPA
+namespace TTcmsConContainers.WebSPA
 {
     public class Startup
     {
@@ -48,7 +48,7 @@ namespace eShopConContainers.WebSPA
             {
                 services.AddDataProtection(opts =>
                 {
-                    opts.ApplicationDiscriminator = "eshop.webspa";
+                    opts.ApplicationDiscriminator = "ttcms.webspa";
                 })
                 .PersistKeysToStackExchangeRedis(ConnectionMultiplexer.Connect(Configuration["DPConnectionString"]), "DataProtection-Keys");
             }

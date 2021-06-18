@@ -1,11 +1,11 @@
 ﻿// For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 
-using eShopOnContainers.WebSPA;
+using ttcms.WebSPA;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 
-namespace eShopConContainers.WebSPA.Server.Controllers
+namespace TTcmsConContainers.WebSPA.Server.Controllers
 {
     public class HomeController : Controller
     {

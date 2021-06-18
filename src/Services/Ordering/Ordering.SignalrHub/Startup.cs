@@ -255,7 +255,7 @@ namespace Ordering.SignalrHub
                 hcBuilder
                     .AddAzureServiceBusTopic(
                         configuration["EventBusConnection"],
-                        topicName: "eshop_event_bus",
+                        topicName: "ttcms_event_bus",
                         name: "signalr-servicebus-check",
                         tags: new string[] { "servicebus" });
             }

@@ -14,10 +14,10 @@ install:
         kubernetes.io/ingress.class: traefik-azds
       hosts:
       # This expands to [space.s.]apigwms.<guid>.<region>.aksapp.io
-      - $(spacePrefix)eshop$(hostSuffix)
+      - $(spacePrefix)ttcms$(hostSuffix)
     inf:
       k8s:
-        dns: $(spacePrefix)eshop$(hostSuffix)      
+        dns: $(spacePrefix)ttcms$(hostSuffix)      
   values:
   - values.dev.yaml?
   - secrets.dev.yaml?

@@ -7,7 +7,7 @@ WORKDIR /src
 
 # It's important to keep lines from here down to "COPY . ." identical in all Dockerfiles
 # to take advantage of Docker's build cache, to speed up local container builds
-COPY "eShopOnContainers-ServicesAndWebApps.sln" "eShopOnContainers-ServicesAndWebApps.sln"
+COPY "TTcms-ServicesAndWebApps.sln" "TTcms-ServicesAndWebApps.sln"
 
 COPY "ApiGateways/Mobile.Bff.Shopping/aggregator/Mobile.Shopping.HttpAggregator.csproj" "ApiGateways/Mobile.Bff.Shopping/aggregator/Mobile.Shopping.HttpAggregator.csproj"
 COPY "ApiGateways/Web.Bff.Shopping/aggregator/Web.Shopping.HttpAggregator.csproj" "ApiGateways/Web.Bff.Shopping/aggregator/Web.Shopping.HttpAggregator.csproj"
@@ -44,7 +44,7 @@ COPY "docker-compose.dcproj" "docker-compose.dcproj"
 
 COPY "NuGet.config" "NuGet.config"
 
-RUN dotnet restore "eShopOnContainers-ServicesAndWebApps.sln"
+RUN dotnet restore "TTcms-ServicesAndWebApps.sln"
 
 COPY . .
 WORKDIR /src/Services/Ordering/Ordering.SignalrHub

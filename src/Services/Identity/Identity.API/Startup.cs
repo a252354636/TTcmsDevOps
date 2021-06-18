@@ -59,7 +59,7 @@ namespace TTcms.Services.Identity.API
             {
                 services.AddDataProtection(opts =>
                 {
-                    opts.ApplicationDiscriminator = "eshop.identity";
+                    opts.ApplicationDiscriminator = "ttcms.identity";
                 })
                 .PersistKeysToStackExchangeRedis(ConnectionMultiplexer.Connect(Configuration["DPConnectionString"]), "DataProtection-Keys");
             }
@@ -156,7 +156,7 @@ namespace TTcms.Services.Identity.API
             app.UseIdentityServer();
 
             // Fix a problem with chrome. Chrome enabled a new feature "Cookies without SameSite must be secure", 
-            // the coockies shold be expided from https, but in eShop, the internal comunicacion in aks and docker compose is http.
+            // the coockies shold be expided from https, but in TTcms, the internal comunicacion in aks and docker compose is http.
             // To avoid this problem, the policy of cookies shold be in Lax mode.
             app.UseCookiePolicy(new CookiePolicyOptions { MinimumSameSitePolicy = SameSiteMode.Lax });
             app.UseRouting();

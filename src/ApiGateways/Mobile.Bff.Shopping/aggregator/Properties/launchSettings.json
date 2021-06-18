@@ -28,8 +28,8 @@
     "Azure Dev Spaces": {
       "commandName": "AzureDevSpaces",
       "launchBrowser": true,
-      "resourceGroup": "eshoptestedu",
-      "aksName": "eshoptestedu",
+      "resourceGroup": "ttcmstestedu",
+      "aksName": "ttcmstestedu",
       "subscriptionId": "e3035ac1-c06c-4daf-8939-57b3c5f1f759"
     }
   }

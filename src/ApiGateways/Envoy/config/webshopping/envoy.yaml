@@ -17,9 +17,9 @@ static_resources:
           codec_type: auto
           stat_prefix: ingress_http
           route_config:
-            name: eshop_backend_route
+            name: ttcms_backend_route
             virtual_hosts:
-            - name: eshop_backend
+            - name: ttcms_backend
               domains:
               - "*"
               routes:

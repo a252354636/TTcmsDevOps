@@ -39,7 +39,7 @@ namespace Webhooks.API.Services
 
             if (!string.IsNullOrWhiteSpace(subs.Token))
             {
-                request.Headers.Add("X-eshop-whtoken", subs.Token);
+                request.Headers.Add("X-ttcms-whtoken", subs.Token);
             }
             _logger.LogDebug("Sending hook to {DestUrl} of type {Type}", subs.Type.ToString(), subs.Type.ToString());
             return client.SendAsync(request);

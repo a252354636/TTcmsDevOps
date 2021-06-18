@@ -205,7 +205,7 @@
                 hcBuilder
                     .AddAzureServiceBusTopic(
                         configuration["EventBusConnection"],
-                        topicName: "eshop_event_bus",
+                        topicName: "ttcms_event_bus",
                         name: "ordering-servicebus-check",
                         tags: new string[] { "servicebus" });
             }
@@ -256,7 +256,7 @@
                 options.DescribeAllEnumsAsStrings();
                 options.SwaggerDoc("v1", new OpenApiInfo
                 {
-                    Title = "eShopOnContainers - Ordering HTTP API",
+                    Title = "ttcms - Ordering HTTP API",
                     Version = "v1",
                     Description = "The Ordering Service HTTP API"
                 });

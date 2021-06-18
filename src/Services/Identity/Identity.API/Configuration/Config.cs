@@ -13,7 +13,7 @@ namespace TTcms.Services.Identity.API.Configuration
             {
                 new ApiResource("orders", "Orders Service"),
                 new ApiResource("basket", "Basket Service"),
-                new ApiResource("mobileshoppingagg", "Mobile Shopping Aggregator"),
+                new ApiResource("mobilttcmspingagg", "Mobile Shopping Aggregator"),
                 new ApiResource("webshoppingagg", "Web Shopping Aggregator"),
                 new ApiResource("orders.signalrhub", "Ordering Signalr Hub"),
                 new ApiResource("webhooks", "Webhooks registration Service"),
@@ -40,7 +40,7 @@ namespace TTcms.Services.Identity.API.Configuration
                 new Client
                 {
                     ClientId = "js",
-                    ClientName = "eShop SPA OpenId Client",
+                    ClientName = "TTcms SPA OpenId Client",
                     AllowedGrantTypes = GrantTypes.Implicit,
                     AllowAccessTokensViaBrowser = true,
                     RedirectUris =           { $"{clientsUrl["Spa"]}/" },
@@ -61,7 +61,7 @@ namespace TTcms.Services.Identity.API.Configuration
                 new Client
                 {
                     ClientId = "xamarin",
-                    ClientName = "eShop Xamarin OpenId Client",
+                    ClientName = "TTcms Xamarin OpenId Client",
                     AllowedGrantTypes = GrantTypes.Hybrid,                    
                     //Used to retrieve the access token on the back channel.
                     ClientSecrets =
@@ -72,7 +72,7 @@ namespace TTcms.Services.Identity.API.Configuration
                     RequireConsent = false,
                     RequirePkce = true,
                     PostLogoutRedirectUris = { $"{clientsUrl["Xamarin"]}/Account/Redirecting" },
-                    //AllowedCorsOrigins = { "http://eshopxamarin" },
+                    //AllowedCorsOrigins = { "http://ttcmsxamarin" },
                     AllowedScopes = new List<string>
                     {
                         IdentityServerConstants.StandardScopes.OpenId,
@@ -80,7 +80,7 @@ namespace TTcms.Services.Identity.API.Configuration
                         IdentityServerConstants.StandardScopes.OfflineAccess,
                         "orders",
                         "basket",
-                        "mobileshoppingagg",
+                        "mobilttcmspingagg",
                         "webhooks"
                     },
                     //Allow requesting refresh tokens for long lived API access
@@ -219,17 +219,17 @@ namespace TTcms.Services.Identity.API.Configuration
                 },
                 new Client
                 {
-                    ClientId = "mobileshoppingaggswaggerui",
+                    ClientId = "mobilttcmspingaggswaggerui",
                     ClientName = "Mobile Shopping Aggregattor Swagger UI",
                     AllowedGrantTypes = GrantTypes.Implicit,
                     AllowAccessTokensViaBrowser = true,
 
-                    RedirectUris = { $"{clientsUrl["MobileShoppingAgg"]}/swagger/oauth2-redirect.html" },
-                    PostLogoutRedirectUris = { $"{clientsUrl["MobileShoppingAgg"]}/swagger/" },
+                    RedirectUris = { $"{clientsUrl["MobilTTcmspingAgg"]}/swagger/oauth2-redirect.html" },
+                    PostLogoutRedirectUris = { $"{clientsUrl["MobilTTcmspingAgg"]}/swagger/" },
 
                     AllowedScopes =
                     {
-                        "mobileshoppingagg"
+                        "mobilttcmspingagg"
                     }
                 },
                 new Client

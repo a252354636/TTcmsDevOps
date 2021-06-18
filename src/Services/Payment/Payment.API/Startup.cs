@@ -179,7 +179,7 @@ namespace Payment.API
                 hcBuilder
                     .AddAzureServiceBusTopic(
                         configuration["EventBusConnection"],
-                        topicName: "eshop_event_bus",
+                        topicName: "ttcms_event_bus",
                         name: "payment-servicebus-check",
                         tags: new string[] { "servicebus" });
             }

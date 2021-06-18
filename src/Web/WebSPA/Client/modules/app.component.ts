@@ -42,6 +42,6 @@ export class AppComponent implements OnInit {
     }
 
     public setTitle(newTitle: string) {
-        this.titleService.setTitle('eShopOnContainers');        
+        this.titleService.setTitle('ttcms');        
     }
 }

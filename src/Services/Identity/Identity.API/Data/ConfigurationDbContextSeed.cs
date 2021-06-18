@@ -23,7 +23,7 @@ namespace TTcms.Services.Identity.API.Data
             clientUrls.Add("Xamarin", configuration.GetValue<string>("XamarinCallback"));
             clientUrls.Add("BasketApi", configuration.GetValue<string>("BasketApiClient"));
             clientUrls.Add("OrderingApi", configuration.GetValue<string>("OrderingApiClient"));
-            clientUrls.Add("MobileShoppingAgg", configuration.GetValue<string>("MobileShoppingAggClient"));
+            clientUrls.Add("MobilTTcmspingAgg", configuration.GetValue<string>("MobilTTcmspingAggClient"));
             clientUrls.Add("WebShoppingAgg", configuration.GetValue<string>("WebShoppingAggClient"));
             clientUrls.Add("WebhooksApi", configuration.GetValue<string>("WebhooksApiClient"));
             clientUrls.Add("WebhooksWeb", configuration.GetValue<string>("WebhooksWebClient"));
@@ -39,7 +39,7 @@ namespace TTcms.Services.Identity.API.Data
             // Checking always for old redirects to fix existing deployments
             // to use new swagger-ui redirect uri as of v3.0.0
             // There should be no problem for new ones
-            // ref: https://github.com/dotnet-architecture/eShopOnContainers/issues/586
+            // ref: https://github.com/dotnet-architecture/ttcms/issues/586
             else
             {
                 List<ClientRedirectUri> oldRedirects = (await context.Clients.Include(c => c.RedirectUris).ToListAsync())

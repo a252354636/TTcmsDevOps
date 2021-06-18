@@ -69,7 +69,7 @@ namespace TTcms.Services.Basket.API
                 options.DescribeAllEnumsAsStrings();
                 options.SwaggerDoc("v1", new OpenApiInfo
                 {
-                    Title = "eShopOnContainers - Basket HTTP API",
+                    Title = "ttcms - Basket HTTP API",
                     Version = "v1",
                     Description = "The Basket Service HTTP API"
                 });
@@ -344,7 +344,7 @@ namespace TTcms.Services.Basket.API
                 hcBuilder
                     .AddAzureServiceBusTopic(
                         configuration["EventBusConnection"],
-                        topicName: "eshop_event_bus",
+                        topicName: "ttcms_event_bus",
                         name: "basket-servicebus-check",
                         tags: new string[] { "servicebus" });
             }
